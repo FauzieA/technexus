@@ -2,6 +2,7 @@
   "name": "tech",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://FauzieA.github.io/technexus",
   "type": "module",
   "scripts": {
     "dev": "vite",
