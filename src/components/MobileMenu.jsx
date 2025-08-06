@@ -13,24 +13,30 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                 &times;
             </button>
 
-            <a href="#about" 
+            <a href="#News" 
             onClick={() => setMenuOpen(false)}
+            className={`text-xl  text-white my-4 transform transition-transform duration-300
+                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-100 translate-y-5"}
+                        `}>News</a>
+
+             
+            <a href="#about"
+            onClick={() => setMenuOpen(false)} 
             className={`text-xl  text-white my-4 transform transition-transform duration-300
                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-100 translate-y-5"}
                         `}>About</a>
 
-             
-            <a href="#Tutorials"
-            onClick={() => setMenuOpen(false)} 
-            className={`text-xl  text-white my-4 transform transition-transform duration-300
-                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-100 translate-y-5"}
-                        `}>Tutorials</a>
-
-            <a href="#Articles"
+            <a href="#Bootcamps"
             onClick={() => setMenuOpen(false)}
             className={`text-xl text-white my-4 transform transition-transform duration-300
                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-100 translate-y-5"}
-                        `}>Articles</a>
+                        `}>Bootcamps</a>
+
+             <a href="#Tutorials"
+            onClick={() => setMenuOpen(false)}
+            className={`text-xl text-white my-4 transform transition-transform duration-300
+                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-100 translate-y-5"}
+                        `}>Tutorials</a>
             <a href="#connect"
             onClick={() => setMenuOpen(false)}
             className={`text-xl text-white my-4 transform transition-transform duration-300
