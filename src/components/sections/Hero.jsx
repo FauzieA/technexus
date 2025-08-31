@@ -31,8 +31,8 @@ export const Hero = () => {
     {/* Workshop Title */}
     <div className="absolute bottom-14 left-1/2 transform -translate-x-1/7 text-left w-[60%] z-20">
       <h3 className="text-white text-3xl md:text-5xl font-semibold leading-tight font-satoshi">
-        Cybersecurity & Data <br />
-        Science Workshop
+        Technexus Social  <br />
+        Business Presentation
       </h3>
     </div>
   </div>

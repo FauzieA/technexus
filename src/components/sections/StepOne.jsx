@@ -20,7 +20,7 @@ import { ProgressBar } from "../ProgressBar";
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2"
+                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2 text-black"
               />
             </div>
           </div>
@@ -34,7 +34,7 @@ import { ProgressBar } from "../ProgressBar";
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2"
+                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2 text-black"
               />
             </div>
           </div>
@@ -51,7 +51,7 @@ import { ProgressBar } from "../ProgressBar";
                 name="studentId"
                 value={formData.studentId}
                 onChange={handleChange}
-                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2"
+                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2 text-black"
               />
             </div>
           </div>
@@ -65,7 +65,7 @@ import { ProgressBar } from "../ProgressBar";
                 name="whatsapp"
                 value={formData.whatsapp}
                 onChange={handleChange}
-                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2"
+                className="w-full bg-transparent focus:outline-none font-orbitron text-base pb-2 text-black"
               />
             </div>
           </div>
